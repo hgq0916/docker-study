@@ -44,6 +44,7 @@ public class DockerApplication {
     Set<Entry<String, String[]>> entries = parameterMap.entrySet();
     Iterator<Entry<String, String[]>> iterator = entries.iterator();
     while (iterator.hasNext()){
+
       Entry<String, String[]> next = iterator.next();
       System.out.println(next.getKey()+"="+ Arrays.toString(next.getValue()));
     }
