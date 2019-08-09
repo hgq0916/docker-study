@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author gangquan.hu
  * @Package: com.thizgroup.docker.DockerApplication
- * @Description: TODO
+ * @Description: docker自动化部署测试
  * @date 2019/8/5 18:37
  */
 @SpringBootApplication
