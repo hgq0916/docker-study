@@ -1,11 +1,13 @@
 package com.thizgroup.docker;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.boot.SpringApplication;
@@ -54,6 +56,19 @@ public class DockerApplication {
       String element = headerNames.nextElement();
       System.out.println("name:"+element+",value="+request.getHeader(element));
     }
+
+    //body
+    try {
+      ServletInputStream inputStream = request.getInputStream();
+      byte[] buf = new byte[2048];
+      int read = inputStream.read(buf);
+      String content = new String(buf,0,read);
+      System.out.println("request body:");
+      System.out.println(content);
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+
     return "";
   }
 
