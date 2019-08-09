@@ -1,5 +1,6 @@
 package com.thizgroup.docker;
 
+import java.util.Enumeration;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.boot.SpringApplication;
@@ -30,6 +31,13 @@ public class DockerApplication {
   @RequestMapping("/testGithubWebhooks")
   public String testGithubWebhooks(HttpServletRequest request, HttpServletResponse response){
     System.out.println("testGithubWebhooks be called");
+    System.out.println("request param:"+request.getParameterMap());
+    System.out.println("request header:"+request.getHeaderNames());
+    Enumeration<String> headerNames = request.getHeaderNames();
+    while (headerNames.hasMoreElements()){
+      String element = headerNames.nextElement();
+      System.out.println("name:"+element+",value="+request.getHeader(element));
+    }
     return "";
   }
 

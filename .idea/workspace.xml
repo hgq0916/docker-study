@@ -4,7 +4,7 @@
     <list default="true" id="481b329b-7521-469b-96cb-294bb85cdddf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thizgroup/docker/DockerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thizgroup/docker/DockerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thizgroup/docker/DockerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thizgroup/docker/DockerApplication.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="4" />
-          <entry key="java" value="157" />
+          <entry key="java" value="271" />
           <entry key="properties" value="4" />
           <entry key="txt" value="18" />
           <entry key="xml" value="40" />
@@ -58,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="157" />
+          <entry key="JAVA" value="271" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="40" />
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thizgroup/docker/DockerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+            <state relative-caret-position="180">
+              <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -198,7 +198,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565344107711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565344420560" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiagou-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -240,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565066751231</updated>
       <workItem from="1565066754111" duration="22709000" />
-      <workItem from="1565257812058" duration="8444000" />
+      <workItem from="1565257812058" duration="8708000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1565167162438</created>
@@ -263,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565342566237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docker自动化部署">
+      <created>1565344125002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565344125002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32612000" />
+    <option name="totallyTimeSpent" value="32876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,9 +380,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/thizgroup/docker/DockerApplication.java</url>
-          <line>31</line>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -464,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thizgroup/docker/DockerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+        <state relative-caret-position="180">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
         </state>
       </provider>
     </entry>
