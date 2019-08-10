@@ -201,7 +201,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565428840320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565430158695" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiagou-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -243,7 +243,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565066751231</updated>
       <workItem from="1565066754111" duration="22709000" />
-      <workItem from="1565257812058" duration="13467000" />
+      <workItem from="1565257812058" duration="14076000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1565167162438</created>
@@ -364,11 +364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565428829034</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="docker自动化部署">
+      <created>1565430147130</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1565430147130</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37635000" />
+    <option name="totallyTimeSpent" value="38244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
